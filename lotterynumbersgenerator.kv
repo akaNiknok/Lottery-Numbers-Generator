@@ -1,0 +1,53 @@
+<Label>:
+    size: self.texture_size
+
+<MainWidget>:
+	orientation: 'vertical'
+
+	Label:
+		id: label
+		valign: 'middle'
+		text: 'Hint: Click Generate'
+
+	Button:
+		size_hint_y: 0.125
+		id: button
+		text: 'Generate'
+		on_press: root.generate()
+
+	BoxLayout:
+		size_hint_y: 0.125
+
+		CheckBox:
+			id: toggle_1
+			halign: 'right'
+			group: 'num'
+			state: 'down'
+
+		Label:
+			text: 'Generate 1 Combination'
+			halign: 'left'
+
+	BoxLayout:
+		size_hint_y: 0.125
+
+		CheckBox:
+			id: toggle_5
+			halign: 'right'
+			group: 'num'
+
+		Label:
+			text: 'Generate 5 Combinations'
+			halign: 'left'
+
+	BoxLayout:
+		size_hint_y: 0.125
+
+		CheckBox:
+			id: toggle_10
+			halign: 'right'
+			group: 'num'
+
+		Label:
+			text: 'Generate 10 Combinations'
+			halign: 'left'
