@@ -3,13 +3,13 @@
 ## About
 
 ### Short Description
-This program is generates 6 random numbers
+This program generates 6 random numbers
 
 ### The Problem
 You have 1 in 28,989,675 chance of winning the lottery (Philippine Lottery). How can we improve the chance of winning in the lottery?
 
 ### The Solution
-Making a program that eliminates rare combinations by setting some rules. Examples of rare combinations:
+Make a program that eliminates rare combinations by setting some rules. Examples of rare combinations:
 
 - [1, 2, 3, 4, 5, 6]
 - [2, 4, 6, 8, 10, 12]
@@ -28,11 +28,17 @@ Making a program that eliminates rare combinations by setting some rules. Exampl
 5. The sum of the 6 numbers should be from 104 - 239
 6. Every list should not be generated twice or more (Not working on this version)
 
+### The Groups
+    1 --  1-11
+    2 -- 12-22
+    3 -- 23-33
+    4 -- 34-44
+    5 -- 45-55
+    
 ## How to Run
 This program runs on [Kivy](kivy.org) - A Cross-platform Python Framework. To install Kivy on your machine, please follow the instructions at the [Kivy Documentation](http://kivy.org/docs/gettingstarted/installation.html)
 
 ## Screenshots
-
 ![screenshot1](screenshots/1.png)
 
 ![screenshot2](screenshots/2.png)
@@ -42,9 +48,7 @@ This program runs on [Kivy](kivy.org) - A Cross-platform Python Framework. To in
 ![screenshot4](screenshots/4.png)
 
 ## Contact
-
 You can contact me at [austingimperial(AT)gmail(DOT)com](mailto:austingimperial@gmail.com)
 
 ## Release Notes
-
 - **V1.0**: First released version
